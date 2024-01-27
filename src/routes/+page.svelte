@@ -15,44 +15,42 @@
 </div>
 
 <section id="diary">
-  <h2
-    class="font-bold text-2xl text-neutral-50 text-center mt-24 bg-zinc-900 py-4"
-  >
+  <h2 class="font-bold text-2xl text-neutral-50 text-center mt-24 bg-zinc-900 py-4">
     Professional Web Development Diary
   </h2>
-  <div class="side-by-side">
+    <div class="flex flex-col justify-center">
+    <!-- svelte-ignore a11y-img-redundant-alt -->
     <img
-      id="smallImage"
-      src="https://t3.ftcdn.net/jpg/04/56/43/42/360_F_456434284_9cghA2gObZOfH5pbH4tgOQrd8pixpy4W.jpg"
-      alt="Small Image"
+        class="w-96 mx-auto"
+        src="red_pill.jpg"
+        alt="Small Image"
     />
+    <!-- svelte-ignore a11y-img-redundant-alt -->
     <img
-      id="smallImage"
-      src="https://cdn.vox-cdn.com/thumbor/47218O6oE6F66idQ5YmUvY0lq6Q=/0x0:3000x2000/1200x800/filters:focal(1331x965:1811x1445)/cdn.vox-cdn.com/uploads/chorus_image/image/65078167/matrix_sequel.0.jpg"
-      alt="Small Image"
+        class="w-96 mx-auto"
+        src="neo.jpg"
+        alt="Small Image"
     />
-  </div>
+    </div>
 
-  <ol class="textintro">
-    <p>
+    <h3 class="font-bold text-center text-2xl mx-auto mt-12 mb-6">
       This is a diary of what I learn every day. It will document my progress in
       web development throughout 2024.
-    </p>
-    <li>Let’s review what you’ve learned so far:</li>
-    <li>
-      19.1.2024 I learned html and how to integrate css and js file into my
-      index.html
-    </li>
-    <li>
-      2024-01-08: I created a cheatsheet today to keep track of what I learn.
-    </li>
+    </h3>
+    <h4 class="font-semibold text-xl ml-72 my-4">
+        Let’s review what you’ve learned so far:
+    </h4>
+<ol class="ml-80 list-decimal">
+    <li>I added tailwind css to my website</li>
+    <li>19.1.2024 I learned html and how to integrate css and js file into my
+      index.html</li>
+    <li>2024-01-08: I created a cheatsheet today to keep track of what I learn.</li>
     <li>2024-01-06: I learned how to use different operators in R.</li>
     <li>I will practice on posit, with different databases.</li>
     <li>I aim to finish the case study in the next few days.</li>
     <li>I aim to start the advanced course and learn Python as well.</li>
-  </ol>
+</ol>
 
-  <hr />
 </section>
 
 <h2>Welcome to my note diary</h2>
