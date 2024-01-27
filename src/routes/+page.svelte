@@ -1,70 +1,77 @@
+<script>
+  function changeColor() {
+    // Generate random RGB values
+    const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    console.log(randomColor);
+    document.body.style.backgroundColor = randomColor;
+  }
+</script>
+
 <div id="header" class="text-center space-y-2 pt-10 font-bold ju">
-  <h1 class="text-3xl text-green-500">Trang Coding Diary</h1>
+  <h1 class="text-4xl text-green-500">Trang Coding Diary</h1>
   <div>
     <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50"
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
     >
       <a href="./index.html"> Home </a>
     </button>
     <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50"
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
     >
       <a href="./aboutme.html" target="_blank"> About me </a>
+    </button>
+    <button
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
+      on:click={changeColor}
+    >
+      Change Color
     </button>
   </div>
 </div>
 
 <section id="diary">
-  <h2 class="font-bold text-2xl text-neutral-50 text-center mt-24 bg-zinc-900 py-4">
+  <h2
+    class="font-bold text-3xl text-neutral-50 text-center mt-24 bg-zinc-900 py-4"
+  >
     Professional Web Development Diary
   </h2>
-    <div class="flex flex-col justify-center">
+  <div class="flex flex-col justify-center">
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img
-        class="w-96 mx-auto"
-        src="red_pill.jpg"
-        alt="Small Image"
-    />
+    <img class="w-96 mx-auto" src="red_pill.jpg" alt="Small Image" />
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img
-        class="w-96 mx-auto"
-        src="neo.jpg"
-        alt="Small Image"
-    />
-    </div>
+    <img class="w-96 mx-auto" src="neo.jpg" alt="Small Image" />
+  </div>
 
-    <h3 class="font-bold text-center text-2xl mx-auto mt-12 mb-6">
-      This is a diary of what I learn every day. It will document my progress in
-      web development throughout 2024.
-    </h3>
-    <h4 class="font-semibold text-xl ml-72 my-4">
-        Let’s review what you’ve learned so far:
-    </h4>
-<ol class="ml-80 list-decimal">
+  <h3 class="font-bold text-center text-3xl mx-auto mt-12 mb-6">
+    This is a diary of what I learn every day. It will document my progress in
+    web development throughout 2024.
+  </h3>
+  <h4 class="font-semibold text-2xl ml-72 my-4">
+    Let’s review what you’ve learned so far:
+  </h4>
+  <ol class="ml-80 list-decimal">
     <li>I added tailwind css to my website</li>
-    <li>19.1.2024 I learned html and how to integrate css and js file into my
-      index.html</li>
-    <li>2024-01-08: I created a cheatsheet today to keep track of what I learn.</li>
+    <li>
+      19.1.2024 I learned html and how to integrate css and js file into my
+      index.html
+    </li>
+    <li>
+      2024-01-08: I created a cheatsheet today to keep track of what I learn.
+    </li>
     <li>2024-01-06: I learned how to use different operators in R.</li>
     <li>I will practice on posit, with different databases.</li>
     <li>I aim to finish the case study in the next few days.</li>
     <li>I aim to start the advanced course and learn Python as well.</li>
-</ol>
-
+  </ol>
 </section>
 
-<h2>Welcome to my note diary</h2>
+<h2 class="font-bold text-2xl mt-12 ml-72">Dodge this</h2>
 
-<div class="side-by-side">
-  <a href="https://i.ytimg.com/vi/8DajVKAkL50/sddefault.jpg" target="_blank">
-    <img
-      src="https://i.ytimg.com/vi/8DajVKAkL50/sddefault.jpg"
-      alt="Dodge this"
-    />
-  </a>
+<div class="mt-12 ml-80">
+  <img src="trinity_dodge_this.jpeg" alt="Dodge this" />
 </div>
 
-<ul class="textintro">
+<ul class="list-disc pl-5">
   <li>
     Jan 26th: I am about to create a presentation with the topic "How to
     encourage young women to learn coding."
@@ -95,10 +102,6 @@
   <li>Today marks my second line of progress.</li>
   <li>Click the button to change the page color.</li>
 </ul>
-
-<p>
-  <button onclick="changeColor()">Change Color</button>
-</p>
 <section id="cheatsheet">
   <h2>HTML Cheatsheet</h2>
   <span style="color: green;"> &lt;h1&gt; </span> to
