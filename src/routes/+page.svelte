@@ -1,0 +1,211 @@
+<div id="header" class="text-center space-y-2 pt-10 font-bold ju">
+  <h1 class="text-3xl text-green-500">Trang Coding Diary</h1>
+  <div>
+    <button
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50"
+    >
+      <a href="./index.html"> Home </a>
+    </button>
+    <button
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50"
+    >
+      <a href="./aboutme.html" target="_blank"> About me </a>
+    </button>
+  </div>
+</div>
+
+<section id="diary">
+  <h2
+    class="font-bold text-2xl text-neutral-50 text-center mt-24 bg-zinc-900 py-4"
+  >
+    Professional Web Development Diary
+  </h2>
+  <div class="side-by-side">
+    <img
+      id="smallImage"
+      src="https://t3.ftcdn.net/jpg/04/56/43/42/360_F_456434284_9cghA2gObZOfH5pbH4tgOQrd8pixpy4W.jpg"
+      alt="Small Image"
+    />
+    <img
+      id="smallImage"
+      src="https://cdn.vox-cdn.com/thumbor/47218O6oE6F66idQ5YmUvY0lq6Q=/0x0:3000x2000/1200x800/filters:focal(1331x965:1811x1445)/cdn.vox-cdn.com/uploads/chorus_image/image/65078167/matrix_sequel.0.jpg"
+      alt="Small Image"
+    />
+  </div>
+
+  <ol class="textintro">
+    <p>
+      This is a diary of what I learn every day. It will document my progress in
+      web development throughout 2024.
+    </p>
+    <li>Let’s review what you’ve learned so far:</li>
+    <li>
+      19.1.2024 I learned html and how to integrate css and js file into my
+      index.html
+    </li>
+    <li>
+      2024-01-08: I created a cheatsheet today to keep track of what I learn.
+    </li>
+    <li>2024-01-06: I learned how to use different operators in R.</li>
+    <li>I will practice on posit, with different databases.</li>
+    <li>I aim to finish the case study in the next few days.</li>
+    <li>I aim to start the advanced course and learn Python as well.</li>
+  </ol>
+
+  <hr />
+</section>
+
+<h2>Welcome to my note diary</h2>
+
+<div class="side-by-side">
+  <a href="https://i.ytimg.com/vi/8DajVKAkL50/sddefault.jpg" target="_blank">
+    <img
+      src="https://i.ytimg.com/vi/8DajVKAkL50/sddefault.jpg"
+      alt="Dodge this"
+    />
+  </a>
+</div>
+
+<ul class="textintro">
+  <li>
+    Jan 26th: I am about to create a presentation with the topic "How to
+    encourage young women to learn coding."
+  </li>
+  <li>
+    Jan 25th: Coding is empowering. Once I started, I tried to focus on a
+    problem that I wanted to solve. From there, I knew which coding language I
+    needed, rather than learning every single language. I focused on a solution
+    to my problem.
+  </li>
+  <li>
+    Jan 25th: For that person, that woman, that young woman out there: Yes,
+    coding is hard, but it is as hard for men, too. So don't give up. It can be
+    overwhelming at the beginning, but that's where you need to continue.
+  </li>
+  <li>In 2024, I am dedicated to learning web development.</li>
+  <li>
+    I added JavaScript to my HTML code to incorporate more complex features,
+    such as the color-changing button.
+  </li>
+  <li>
+    I started adding a CSS file to my HTML code. It's a game-changer to style
+    and format in one place.
+  </li>
+  <li>In 2024, I am committed to learning web development.</li>
+  <li>With each commit, I witness real-time changes in my work.</li>
+  <li>This initial prototype was created in Italy while awaiting dinner.</li>
+  <li>Today marks my second line of progress.</li>
+  <li>Click the button to change the page color.</li>
+</ul>
+
+<p>
+  <button onclick="changeColor()">Change Color</button>
+</p>
+<section id="cheatsheet">
+  <h2>HTML Cheatsheet</h2>
+  <span style="color: green;"> &lt;h1&gt; </span> to
+  <span style="color: green;"> &lt;h6&gt; </span> tags, are used to provide
+  titles for sections of content.
+  <span style="color: green;">&lt;p&gt;</span>,
+  <span style="color: green;">&lt;span&gt;</span>, and
+  <span style="color: green;">&lt;div&gt;</span>
+  tags specify text or blocks. The <span style="color: green;">&lt;em&gt;</span>
+  and <span style="color: green;">&lt;strong&gt;</span> tags are used to
+  emphasize text. Line breaks are created with the
+  <span style="color: green;">&lt;br&gt;</span>
+  tag. Ordered lists (<span style="color: green;">&lt;ol&gt;</span>) are
+  numbered, and unordered lists (<span style="color: green;">&lt;ul&gt;</span>)
+  are bulleted. Images (<span style="color: green;">&lt;img&gt;</span>) and
+  videos (<span style="color: green;">&lt;video&gt;</span>) can be added by
+  linking to an existing source.
+
+  <h3>Links</h3>
+  <p>
+    <a href="file:///Users/trangdang/Code/trangdangberlin.github.io/index.html"
+      >Visit Example.com</a
+    >
+  </p>
+
+  <h3>Add Images</h3>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
+    alt="Original Image"
+  />
+  <h3>Add Small Images</h3>
+  <img
+    id="smallImage"
+    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
+    alt="Small Image"
+  />
+
+  <span>I'm a span.</span>
+  <p>
+    <a href="#">This is my anchor tag, it allows me to create HTML links</a>
+  </p>
+  <input type="text" />
+</section>
+<table>
+  <thead>
+    <tr>
+      <th>heading 1</th>
+      <th>heading 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 1</td>
+      <td>col 2</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tr>
+    <th>column one</th>
+    <th>column two</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
+
+<table>
+  <tr> Table row element </tr>
+</table>
+
+<table>
+  <tr>
+    <th>row 1:</th>
+    <td>col 1</td>
+    <td>col 2</td>
+    <td>col 3</td>
+  </tr>
+  <tr>
+    <th>row 2:</th>
+    <td colspan="2">col 1 (will span 2 columns)</td>
+    <td>col 2</td>
+    <td>col 3</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>heading 1</th>
+      <th>heading 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 1</td>
+      <td>col 2</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>summary of col 1</td>
+      <td>summary of col 2</td>
+    </tr>
+  </tfoot>
+</table>
