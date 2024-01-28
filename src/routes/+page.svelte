@@ -35,18 +35,18 @@
   >
     Professional Web Development Diary
   </h2>
-  <div class="flex flex-col justify-center">
+  <div class="flex flex-row justify-center">
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img class="w-96 mx-auto" src="red_pill.jpg" alt="Small Image" />
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img class="w-96 mx-auto" src="neo.jpg" alt="Small Image" />
+    <img class="w-fit mx-auto" src="red-pill.jpg" alt="red pill" />
+    <img class="w-32 mx-auto" src="blue-pill.jpg" alt="blue pill" />
+    <img class="w-fit mx-auto" src="neo.png" alt="neo" />
   </div>
 
-  <h3 class="font-bold text-center text-3xl mx-auto mt-12 mb-6">
+  <h3 class="font-bold text-center text-3xl mx-auto mt-14 mb-6">
     This is a diary of what I learn every day. It will document my progress in
     web development throughout 2024.
   </h3>
-  <h4 class="font-semibold text-2xl ml-72 my-4">
+  <h4 class="font-semibold text-2xl ml-72 my-4 mt14">
     Let’s review what you’ve learned so far:
   </h4>
   <ol class="ml-80 list-decimal">
@@ -65,13 +65,13 @@
   </ol>
 </section>
 
-<h2 class="font-bold text-2xl mt-12 ml-72">Dodge this</h2>
+<h2 class="font-bold text-2xl mt-14 ml-72">Dodge this</h2>
 
-<div class="mt-12 ml-80">
+<div class="mt-6 ml-80">
   <img src="trinity_dodge_this.jpeg" alt="Dodge this" />
 </div>
 
-<ul class="list-disc pl-5">
+<ul class="list-disc pl-5 mt-10 ml-44">
   <li>
     Jan 26th: I am about to create a presentation with the topic "How to
     encourage young women to learn coding."
