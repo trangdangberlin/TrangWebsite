@@ -1,11 +1,16 @@
 <script>
   function changeColor() {
-    // Generate random RGB values
-    const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    // Choose between blue and red
+    const colorOptions = ["#0000FF", "#FF0000"];
+    
+    // Pick a random color from the options
+    const randomColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
     console.log(randomColor);
+
     document.body.style.backgroundColor = randomColor;
   }
 </script>
+
 
 <div id="header" class="text-center space-y-2 pt-10 font-bold ju">
   <h1 class="text-4xl text-green-500">Trang Coding Diary</h1>
