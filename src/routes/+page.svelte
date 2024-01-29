@@ -143,74 +143,64 @@
 </div>
 
 
-  <span>I'm a span.</span>
-  <p>
-    <a href="#">This is my anchor tag, it allows me to create HTML links</a>
-  </p>
-  <input type="text" />
-</section>
-<table>
-  <thead>
-    <tr>
-      <th>heading 1</th>
-      <th>heading 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>col 1</td>
-      <td>col 2</td>
-    </tr>
-  </tbody>
-</table>
+<div class="container mx-auto p-4">
+    <section class="mb-4">
+        <span class="block mb-2">I'm a span.</span>
+        <p class="mb-2">
+            <a href="#" class="text-blue-500">This is my anchor tag, it allows me to create HTML links</a>
+        </p>
+        <input type="text" class="border p-2 rounded mt-2">
+    </section>
 
-<table>
-  <tr>
-    <th>column one</th>
-    <th>column two</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>2</td>
-  </tr>
-</table>
+    <table class="table-auto mb-4">
+        <thead>
+            <tr>
+                <th class="border p-2">heading 1</th>
+                <th class="border p-2">heading 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border p-2">col 1</td>
+                <td class="border p-2">col 2</td>
+            </tr>
+        </tbody>
+    </table>
 
-<table>
-  <tr> Table row element </tr>
-</table>
+    <table class="table-auto mb-4">
+        <tr>
+            <th class="border p-2">column one</th>
+            <th class="border p-2">column two</th>
+        </tr>
+        <tr>
+            <td class="border p-2">1</td>
+            <td class="border p-2">2</td>
+        </tr>
+    </table>
 
-<table>
-  <tr>
-    <th>row 1:</th>
-    <td>col 1</td>
-    <td>col 2</td>
-    <td>col 3</td>
-  </tr>
-  <tr>
-    <th>row 2:</th>
-    <td colspan="2">col 1 (will span 2 columns)</td>
-    <td>col 2</td>
-    <td>col 3</td>
-  </tr>
-</table>
+    <table class="table-auto mb-4">
+        <tr>
+            <td class="border p-2"> Table row element </td>
+        </tr>
+    </table>
 
-<table>
-  <thead>
-    <tr>
-      <th>heading 1</th>
-      <th>heading 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>col 1</td>
-      <td>col 2</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>summary of col 1</td>
-      <td>summary of col 2</td>
-    </tr>
-  </tfoot>
-</table>
+    <table class="table-auto mb-4">
+        <tr>
+            <th class="border p-2">row 1:</th>
+            <td class="border p-2">col 1</td>
+            <td class="border p-2">col 2</td>
+            <td class="border p-2">col 3</td>
+        </tr>
+        <tr>
+            <th class="border p-2">row 2:</th>
+            <td class="border p-2" colspan="2">col 1 (will span 2 columns)</td>
+            <td class="border p-2">col 2</td>
+            <td class="border p-2">col 3</td>
+        </tr>
+    </table>
+
+    <table class="table-auto mb-4">
+        <thead>
+            <tr>
+                <th class="border p-2">heading 1</th>
+                <
