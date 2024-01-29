@@ -41,11 +41,16 @@
     Professional Web Development Diary
   </h2>
   <div class="flex flex-row justify-center">
-    <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img class="w-fit mx-auto" src="red-pill.jpg" alt="red pill" />
-    <img class="w-32 mx-auto" src="blue-pill.jpg" alt="blue pill" />
-    <img class="w-fit mx-auto" src="neo.png" alt="neo" />
-  </div>
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <img class="w-fit mx-auto" src="red-pill.jpg" alt="red pill" />
+  <img class="w-32 mx-auto" src="blue-pill.jpg" alt="blue pill" />
+</div>
+
+<div class="flex justify-center">
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <img class="w-fit mx-auto" src="neo.png" alt="neo" />
+</div>
+
 
   <h3 class="font-bold text-center text-3xl mx-auto mt-14 mb-6">
     This is a diary of what I learn every day. It will document my progress in
