@@ -126,18 +126,22 @@
       >Visit Example.com</a
     >
   </p>
+<div class="container mx-auto p-4">
+    <h3 class="text-2xl font-bold mb-4">Add Images</h3>
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
+        alt="Original Image"
+        class="mb-4"
+    />
 
-  <h3>Add Images</h3>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
-    alt="Original Image"
-  />
-  <h3>Add Small Images</h3>
-  <img
-    id="smallImage"
-    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
-    alt="Small Image"
-  />
+    <h3 class="text-2xl font-bold mb-4">Add Small Images</h3>
+    <img
+        id="smallImage"
+        src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
+        alt="Small Image"
+    />
+</div>
+
 
   <span>I'm a span.</span>
   <p>
