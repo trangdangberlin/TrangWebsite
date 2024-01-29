@@ -2,8 +2,7 @@
   function changeColor() {
     // Choose between blue and red
     const colorOptions = ["#0000FF", "#FF0000"];
-    
-    // Pick a random color from the options
+  // Pick a random color from the options
     const randomColor = colorOptions[Math.floor(Math.random() * colorOptions.length)];
     console.log(randomColor);
 
