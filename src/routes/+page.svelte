@@ -39,8 +39,8 @@
   </h2>
   <div class="flex flex-row justify-center">
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img class="w-fit mx-auto" src="red-pill.jpg" alt="red pill" />
-    <img class="w-32 mx-auto" src="blue-pill.jpg" alt="blue pill" />
+    <img class="w-fit mx-auto" src="red-pill.png" alt="red pill" />
+    <img class="w-32 mx-auto" src="blue-pill.png" alt="blue pill" />
   </div>
 
   <div class="flex justify-center">
