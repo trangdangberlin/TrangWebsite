@@ -32,6 +32,9 @@
           Let’s review what you’ve learned so far:
         </h4>
         <ol class="ml-80 list-decimal">
+          <li>
+            I added components my website to structure my website layout better
+          </li>
           <li>I added Tailwind CSS to my website</li>
           <li>
             19.1.2024 I learned HTML and how to integrate CSS and JS files into
