@@ -7,7 +7,7 @@
 </script>
 
 <div class="p-14 bg-green-600">
-  <div class="bg-black rounded-lg">
+  <div class="bg-zinc-900 rounded-lg">
     <Header />
     <Diary />
     <Notes />

@@ -1,6 +1,6 @@
 <div class="text-white">
   <h2
-    class="font-bold text-3xl text-neutral-50 text-center mt-24 bg-zinc-900 py-4"
+    class="font-bold text-3xl text-neutral-50 text-center mt-24 bg-green-600 py-4"
   >
     Professional Web Development Diary
   </h2>
