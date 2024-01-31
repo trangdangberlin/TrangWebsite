@@ -6,6 +6,8 @@
 </head>
   
 <script>
+// @ts-nocheck
+
   function changeColor() {
     const colorOptions = ["#0000FF", "#FF0000"];
     const randomColor =
