@@ -25,17 +25,17 @@
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
     >
-      <a href="./index.html"> Home </a>
+      <a href="/"> Home </a>
     </button>
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
     >
-      <a href="./about" target="_blank"> About me </a>
+      <a href="/about"> About me </a>
     </button>
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
     >
-      <a href="/portfolio" target="_blank"> Portfolio</a>
+      <a href="/portfolio"> Portfolio</a>
     </button>
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
