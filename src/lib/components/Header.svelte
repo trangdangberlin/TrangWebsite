@@ -1,12 +1,5 @@
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trang Coding Diary</title>
-</head>
-  
 <script>
-// @ts-nocheck
+  // @ts-nocheck
 
   function changeColor() {
     const colorOptions = ["#0000FF", "#FF0000"];
@@ -17,6 +10,12 @@
     document.body.style.backgroundColor = randomColor;
   }
 </script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Coding Diary</title>
+</head>
 
 <button onclick="changeColor()">Change Color</button>
 
@@ -35,9 +34,14 @@
     </button>
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
+    >
+      <a href="/portfolio" target="_blank"> Portfolio</a>
+    </button>
+    <button
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
       on:click={changeColor}
     >
       Change Color
-
+    </button>
   </div>
 </div>
