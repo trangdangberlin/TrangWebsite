@@ -23,22 +23,22 @@
   <h1 class="text-4xl text-green-500">Trang Coding Diary</h1>
   <div>
     <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
     >
       <a href="/"> Home </a>
     </button>
     <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
     >
       <a href="/about"> About me </a>
     </button>
     <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
     >
       <a href="/portfolio"> Portfolio</a>
     </button>
     <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
+      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
       on:click={changeColor}
     >
       Change Color

@@ -5,7 +5,7 @@
 </script>
 
 <div class="p-14 bg-green-600">
-  <div class="bg-zinc-900 rounded-lg">
+  <div class="bg-zinc-950 rounded-lg">
     <Header />
     <slot />
     <Footer />
