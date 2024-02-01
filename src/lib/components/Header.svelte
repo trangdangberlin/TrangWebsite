@@ -30,7 +30,7 @@
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"
     >
-      <a href="./aboutme.html" target="_blank"> About me </a>
+      <a href="./about" target="_blank"> About me </a>
     </button>
     <button
       class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-50 text-xl"

@@ -13,11 +13,7 @@
     <Notes />
     <Cheatsheet />
     <Tables />
-    <img
-      src="trinity_dodge_this.jpeg"
-      alt="Dodge this"
-      class="block mx-auto my-4 rounded-lg"
-    />
+
 
     <img
       src="digital_rain.gif"
