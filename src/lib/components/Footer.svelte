@@ -1,20 +1,22 @@
 <script>
 </script>
 
-<div class="bg-green-600 text-neutral-100 mt-24 flex justify-between">
-  <div class="text-center space-y-2 pt-10 font-bold">
-    <h4 class="text-4xl text-zinc-950">Goodbye</h4>
-  </div>
-  <div class="mt-10 ml-10">
-    <div>Trang D.</div>
-    <div>Data Analytics</div>
-    <div>Berlin</div>
-  </div>
+<div
+  class="bg-green-600 text-zinc-950 font-semibold mt-24 flex justify-between items-center align-middle"
+>
+  <div class="mt-10 ml-10">Trang D. - Berlin</div>
 
-  <div>
-    <div><img class="w-5" src="Li_icon.png"></div>
-    <div><img class="w-5" src="GitHub_icon.png"></div>
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <div><img class="w-5" src="email_icon.png"></div>
+  <div class="flex flex-row space-x-1">
+    <a href="https://www.linkedin.com/in/dang-trang/" target="_blank">
+      <img class="w-5 h-5 hover:scale-110" src="Li_icon.png" />
+    </a>
+
+    <a href="your_link_here" target="_blank>
+      <img class="w-5 h-5 hover:scale-110" src="GitHub_icon.png" />
+    </a>
+
+    <a href="your_link_here" target="_blank>
+      <img class="w-5 h-5 hover:scale-110" src="email_icon.png" />
+    </a>
   </div>
 </div>
