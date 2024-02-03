@@ -11,11 +11,11 @@
       <img class="w-5 h-5 hover:scale-110" src="Li_icon.png" />
     </a>
 
-    <a href="your_link_here" target="_blank>
+    <a href="https://github.com/trangdangberlin" target="_blank">
       <img class="w-5 h-5 hover:scale-110" src="GitHub_icon.png" />
     </a>
 
-    <a href="mailto:your_da.trang91@yahoo.de" target="_blank>
+    <a href="mailto:your_da.trang91@yahoo.de" target="_blank">
       <img class="w-5 h-5 hover:scale-110" src="email_icon.png" />
     </a>
   </div>
