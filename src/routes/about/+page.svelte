@@ -14,7 +14,7 @@
   more and embracing better challenges" is not just a saying; it's a guiding
   principle in both life and work.
 
-  <div class="list-disc pl-5 mt-10 ml-44 mb-10 text-neutral-100">
+  <div class="list-disc pl-5 mt-10 ml-44 mb-10">
     <ul>
       <li>Contact details</li>
       <li>Employment history</li>
