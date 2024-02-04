@@ -13,4 +13,13 @@
   environment that blends Berlin and my Vietnamese heritage. For me, "Achieving
   more and embracing better challenges" is not just a saying; it's a guiding
   principle in both life and work.
+
+  <ul>
+    Contact details
+    <li>Employment history</li>
+    <li>Software projects</li>
+    <li>Education</li>
+    <li>Awards, accomplishments, and/or hobbies</li>
+    <li>Technical skills</li>
+  </ul>
 </div>
