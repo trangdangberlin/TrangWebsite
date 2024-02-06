@@ -16,12 +16,30 @@
 
   <div class="list-disc pl-5 mt-10 ml-44 mb-10">
     <ul>
-      <li>Contact details</li>
-      <li>Employment history</li>
-      <li>Software projects</li>
-      <li>Education</li>
-      <li>Awards, accomplishments, and/or hobbies</li>
-      <li>Technical skills</li>
+      <h5>Contact details</h5>
+      <p>Test
+
+      </p>
+      <h5>Employment history</h5>
+      <p>
+        Test
+      </p>
+      <h5>Software projects</h5>
+      <p>
+        Test
+      </p>
+      <h5>Education</h5>
+      <p>
+        Test
+      </p>
+      <h5>Awards, accomplishments, and/or hobbies</h5>
+      <p>
+        Test
+      </p>
+      <h5>Technical skills</h5>
+      <p>
+        Test
+      </p>
     </ul>
   </div>
 </div>
