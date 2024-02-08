@@ -14,32 +14,20 @@
   more and embracing better challenges" is not just a saying; it's a guiding
   principle in both life and work.
 
-  <div class="list-disc pl-5 mt-10 ml-44 mb-10">
+  <div class="list-disc pl-5 mt-10 ml-24 mb-10 text-pretty">
     <ul>
       <h5>Contact details</h5>
-      <p>Test
-
-      </p>
+      <p>Test</p>
       <h5>Employment history</h5>
-      <p>
-        Test
-      </p>
+      <p>Test</p>
       <h5>Software projects</h5>
-      <p>
-        Test
-      </p>
+      <p>Test</p>
       <h5>Education</h5>
-      <p>
-        Test
-      </p>
+      <p>Test</p>
       <h5>Awards, accomplishments, and/or hobbies</h5>
-      <p>
-        Test
-      </p>
+      <p>Test</p>
       <h5>Technical skills</h5>
-      <p>
-        Test
-      </p>
+      <p>Test</p>
     </ul>
   </div>
 </div>
