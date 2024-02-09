@@ -1,4 +1,4 @@
-<div">
+<div>
   <h2 class="font-bold text-2xl">HTML Cheatsheet</h2>
   <span style="color: green;"> &lt;h1&gt; </span> to
   <span style="color: green;"> &lt;h6&gt; </span> tags, are used to provide
