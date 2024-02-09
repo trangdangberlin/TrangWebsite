@@ -6,7 +6,7 @@
   alt="Dodge this"
   class="block mx-auto my-4 rounded-lg"
 />
-<div class="list-disc pl-5 text-neutral-100 text-center">
+<div class="list-disc pl-5 text-center">
   Hi there! I'm Trang a sales expert and entry level data professional with over
   five years of experience in sales and customer management. My passion for
   bridging cultures and technologies stems from growing up in an exciting

@@ -9,9 +9,11 @@
 <Notes />
 <Cheatsheet />
 <Tables />
-
-<img
-  src="digital_rain.gif"
-  alt="digital_rain"
-  class="block mx-auto my-4 rounded-lg"
-/>
+<div class="rounded-lg block mx-auto my-4">
+  <img
+    src="digital_rain.gif"
+    alt="digital_rain"
+    class="block mx-auto my-4"
+  />
+</div>
+  

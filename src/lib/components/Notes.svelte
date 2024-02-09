@@ -1,4 +1,4 @@
-<div class="list-disc pl-5 mt-10 ml-44 mb-10 text-white">
+<div class="list-disc pl-5 mt-10 ml-44 mb-10">
   <ul>
     <li>
       Jan 26th: I am about to create a presentation with the topic "How to

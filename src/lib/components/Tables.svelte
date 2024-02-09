@@ -1,4 +1,4 @@
-<div class="text-white">
+<div class="text-center">
   <table class="table-auto mb-4">
     <thead>
       <tr>

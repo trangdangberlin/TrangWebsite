@@ -17,7 +17,6 @@
   <title>Trang Coding Diary</title>
 </head>
 
-<button onclick="changeColor()">Change Color</button>
 
 <div id="header" class="text-center space-y-2 pt-10 font-bold ju">
   <h1 class="text-4xl text-green-500">Trang Coding Diary</h1>

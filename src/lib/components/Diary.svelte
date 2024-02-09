@@ -1,7 +1,5 @@
-<div class="text-white">
-  <h2
-    class="font-bold text-3xl text-neutral-50 text-center mt-24 bg-green-600 py-4"
-  >
+<div>
+  <h2 class="font-bold text-3x text-center mt-24 bg-green-600 py-4">
     Professional Web Development Diary
   </h2>
   <div class="flex flex-row justify-center">
@@ -12,9 +10,8 @@
 
   <div class="flex justify-center">
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img class="w-fit mx-auto" src="neo.png" alt="neo" />
   </div>
-  <div class="text-white">
+  <div>
     <h3 class="font-bold text-center text-3xl mx-auto mt-14 m-6">
       This is a diary of what I learn every day. It will document my progress in
       web development throughout 2024.
