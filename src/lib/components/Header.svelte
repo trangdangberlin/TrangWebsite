@@ -1,46 +1,61 @@
-<script>
-  // @ts-nocheck
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Web</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
 
-  function changeColor() {
-    const colorOptions = ["#0000FF", "#FF0000"];
-    const randomColor =
-      colorOptions[Math.floor(Math.random() * colorOptions.length)];
-    console.log(randomColor);
+      #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
 
-    document.body.style.backgroundColor = randomColor;
-  }
-</script>
+      #headline {
+        order: -1; /* Move this to the left */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-gray-100 flex items-center justify-center h-screen relative">
+      <div
+        class="text-zinc-950 transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl font-semibold"
+      >
+        Click 1
+      </div>
+      <button
+        class="hidden absolute top-0 left-0 bg-green-500 text-white px-4 py-2 transition-all duration-300 ease-in-out transform translate-x-full group-hover:translate-x-0"
+      >
+        <a href="/">Click 1</a>
+      </button>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trang Coding Diary</title>
-</head>
+      <div
+        class="text-zinc-950 transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl font-semibold"
+      >
+        Click 2
+      </div>
+      <button
+        class="hidden absolute top-0 left-0 bg-green-500 text-white px-4 py-2 transition-all duration-300 ease-in-out transform translate-x-full group-hover:translate-x-0"
+      >
+        <a href="/">Click 2</a>
+      </button>
 
-
-<div id="header" class="text-center space-y-2 pt-10 font-bold ju">
-  <h1 class="text-4xl text-green-500">Trang Coding Diary</h1>
-  <div>
-    <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
-    >
-      <a href="/"> Home </a>
-    </button>
-    <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
-    >
-      <a href="/about"> About me </a>
-    </button>
-    <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
-    >
-      <a href="/portfolio"> Portfolio</a>
-    </button>
-    <button
-      class="bg-green-500 rounded hover:bg-green-700 px-2 text-neutral-100 text-xl"
-      on:click={changeColor}
-    >
-      Change Color
-    </button>
-  </div>
-</div>
+      <div
+        class="text-zinc-950 transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl font-semibold"
+      >
+        Click 3
+      </div>
+      <button
+        class="hidden absolute top-0 left-0 bg-green-500 text-white px-4 py-2 transition-all duration-300 ease-in-out transform translate-x-full group-hover:translate-x-0"
+      >
+        <a href="/">Click 3</a>
+      </button>
+    </div>
+  </body>
+</html>
