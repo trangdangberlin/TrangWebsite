@@ -31,7 +31,7 @@
       <div
         class="bg-zinc-950 flex items-center justify-center h-screen relative text-white"
         id="parentDiv"
-        > <!--
+        >
         Headline
         --
         > <div
