@@ -3,8 +3,14 @@
   import Diary from "$lib/components/Diary.svelte";
   import Cheatsheet from "$lib/components/Cheatsheet.svelte";
   import Notes from "$lib/components/Notes.svelte";
+  import Hero from "$lib/components/Hero.svelte";
 </script>
+<!--Hero-->
 
+<Hero />
+
+
+<!--Comment
 <Diary />
 <Notes />
 <Cheatsheet />
@@ -16,4 +22,5 @@
     class="block mx-auto my-4"
   />
 </div>
+-->
   
