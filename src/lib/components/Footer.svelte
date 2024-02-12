@@ -2,7 +2,7 @@
 </script>
 
 <div
-  class="bg-green-600 text-zinc-950 font-semibold mt-24 flex justify-between items-center align-middle"
+  class="bg-green-600 text-black font-semibold mt-24 flex justify-between items-center align-middle"
 >
   <div class="mt-10 ml-10">Trang D. - Berlin</div>
 

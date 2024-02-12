@@ -9,18 +9,18 @@
     </div>
 
     <div
-      class="text-white transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl font-semibold hover:text-black"
+      class="text-white transition-colors duration-300 ease-in-out hover:bg-green-600 rounded-xl px-2 text-xl font-semibold hover:text-black"
     >
       Click 2
     </div>
 
     <div
-      class="text-white transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl font-semibold hover:text-black"
+      class="text-white transition-colors duration-300 ease-in-out hover:bg-green-600 rounded-xl px-2 text-xl font-semibold hover:text-black"
     >
       Click 3
     </div>
   </div>
-  <button class=" border-white bg-black hover:bg-green-500 rounded-xl px-2 hover:text-black">
+  <button class=" border-white bg-black hover:bg-green-600 rounded-xl px-2 hover:text-black">
     <div
       class="font-bold text-2xl text-white transition-colors duration-300 ease-in-out"
     >

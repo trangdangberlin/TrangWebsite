@@ -1,5 +1,5 @@
 <div>
-  <h2 class="font-bold text-3x text-center mt-24 bg-green-600 py-4">
+  <h2 class="font-bold text-3x text-center mt-24 bg-green-600 text-white py-4">
     Professional Web Development Diary
   </h2>
   <div class="flex flex-row justify-center">
