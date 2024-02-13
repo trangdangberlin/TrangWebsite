@@ -5,26 +5,26 @@
     <div
       class="text-white transition-colors duration-300 ease-in-out hover:bg-green-600 rounded-xl px-2 text-xl font-semibold hover:text-black"
     >
-      Click 1
+      CLICK 1
     </div>
 
     <div
       class="text-white transition-colors duration-300 ease-in-out hover:bg-green-600 rounded-xl px-2 text-xl font-semibold hover:text-black"
     >
-      Click 2
+      CLICK 2
     </div>
 
     <div
       class="text-white transition-colors duration-300 ease-in-out hover:bg-green-600 rounded-xl px-2 text-xl font-semibold hover:text-black"
     >
-      Click 3
+      CLICK 3
     </div>
   </div>
   <button class=" bg-black hover:bg-green-600 rounded-xl px-2 hover:text-black">
     <div
       class="font-bold text-2xl text-white transition-colors duration-300 ease-in-out"
     >
-      Contact
+      CONTACT
     </div>
   </button>
 </div>

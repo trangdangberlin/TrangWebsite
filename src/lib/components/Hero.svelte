@@ -8,7 +8,7 @@
         <h1
           class="mt-24 text-4xl font-bold tracking-tight sm:mt-10 sm:text-6xl"
         >
-          Welcome to my website
+          WELCOME
         </h1>
         <p class="mt-6 text-lg leading-8">
           Hi there! I'm Trang a sales expert and entry level data professional
