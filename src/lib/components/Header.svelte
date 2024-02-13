@@ -3,7 +3,7 @@
 
   <div class="bg-black flex items-center justify-center text-white">
     <div
-      class="text-white transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl font-semibold hover:text-black"
+      class="text-white transition-colors duration-300 ease-in-out hover:bg-green-600 rounded-xl px-2 text-xl font-semibold hover:text-black"
     >
       Click 1
     </div>

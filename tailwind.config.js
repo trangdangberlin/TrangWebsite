@@ -3,9 +3,13 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     fontFamily: {
-      sans: ['Arial']
+      roboto: ['Roboto', 'sans-serif']
     },
     extend: {},
   },
   plugins: [],
 };
+
+
+
+
