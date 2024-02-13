@@ -5,7 +5,6 @@
   import Notes from "$lib/components/Notes.svelte";
   import Hero from "$lib/components/Hero.svelte";
 </script>
-<!--Hero-->
 
 <Hero />
 
