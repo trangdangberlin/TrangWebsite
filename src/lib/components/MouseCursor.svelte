@@ -20,11 +20,11 @@
     mouseY = event.clientY;
 
     // Introduce a delay to the dot's position update
-    dotX = mouseX;
-    dotY = mouseY;
-
-   
+    setTimeout(() => {
+      dotX = mouseX;
+      dotY = mouseY;
       showCursor = true;
+    }, 500); // Adjust the delay time (in milliseconds) as needed
   }
 </script>
 
