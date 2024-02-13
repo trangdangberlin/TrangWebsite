@@ -24,7 +24,7 @@
       dotX = mouseX;
       dotY = mouseY;
       showCursor = true;
-    }, 500); // Adjust the delay time (in milliseconds) as needed
+    }, 300); // Adjust the delay time (in milliseconds) as needed
   }
 </script>
 
@@ -34,7 +34,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: greenyellow; /* Change to your desired color */
+    background-color: #2fff32; /* Change to your desired color */
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: transform 0.1s ease-out;
