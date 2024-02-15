@@ -7,28 +7,28 @@
     <div class="button-group flex space-x-10">
       <a href="/about">
         <div
-          class="text-white transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl hover:text-black"
+          class="text-white transition-colors duration-300 ease-in-out hover:bg-neongreen rounded-xl px-2 text-xl hover:text-black"
         >
           ABOUT ME
         </div>
       </a>
       <a href="/portfolio">
         <div
-          class="text-white transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl hover:text-black"
+          class="text-white transition-colors duration-300 ease-in-out hover:bg-neongreen rounded-xl px-2 text-xl hover:text-black"
         >
           PORTFOLIO
         </div>
       </a>
 
       <div
-        class="text-white transition-colors duration-300 ease-in-out hover:bg-green-500 rounded-xl px-2 text-xl hover:text-black"
+        class="text-white transition-colors duration-300 ease-in-out hover:bg-neongreen rounded-xl px-2 text-xl hover:text-black"
       >
         CLICK 3
       </div>
     </div>
   </div>
 
-  <button class="bg-black rounded-xl px-2 hover:bg-green-500">
+  <button class="bg-black rounded-xl px-2 hover:bg-neongreen">
     <div
       class="text-white text-xl transition-colors duration-300 ease-in-out hover:text-black"
     >
