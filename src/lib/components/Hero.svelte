@@ -25,7 +25,7 @@
     >
       <img
         class="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-        src="https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/417542805_1075576213770710_3184805593950548391_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHj_0a_fxjQU0B6z6_BWyGTtVReRmD0KGC1VF5GYPQoYEluFlEKhTuf4igyCWdIO9k&_nc_ohc=920ozKWvGG8AX_FG7Um&_nc_ht=scontent-sin6-4.xx&oh=00_AfC2Fr133VeESNHv8ZsCjkv6RtLSVrV-9VVY1h3sEmHwsQ&oe=65CE87A1"
+        src="Trang.jpeg"
         alt=""
       />
     </div>
