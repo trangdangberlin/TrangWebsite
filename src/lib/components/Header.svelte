@@ -18,13 +18,16 @@
   >
     <Button title="ABOUT ME" link="/about" />
   </div>
-  <div on:click={() => handleButtonClick("portfolio")}
+  <div
+    on:click={() => handleButtonClick("portfolio")}
     class={selectedPage == "portfolio" ? "bg-neongreen p-0.5 rounded-2xl" : ""}
-    >
+  >
     <Button title="PORTFOLIO" link="/portfolio" />
   </div>
-  <div on:click={() => handleButtonClick("contact")}
-    class={selectedPage == "contact" ? "bg-neongreen p-0.5 rounded-2xl" : ""}>
+  <div
+    on:click={() => handleButtonClick("contact")}
+    class={selectedPage == "contact" ? "bg-neongreen p-0.5 rounded-2xl" : ""}
+  >
     <Button title="CONTACT" link="/contact" />
   </div>
 </div>
