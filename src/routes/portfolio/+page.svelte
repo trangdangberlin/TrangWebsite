@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+<div class="carousel carousel-center w-full bg-black p-4 space-x-4 text-white overflow-x-scroll rounded-box">
   <div class="carousel-item">
     <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" class="rounded-box" />
   </div> 
