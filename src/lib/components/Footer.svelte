@@ -10,15 +10,15 @@
   <div class="flex flex-row space-x-2 mr-10">
 
     <a href="https://www.linkedin.com/in/dang-trang/" target="_blank">
-      <Linkedin color="#FFFFFF"/>
+      <Linkedin color="#FFFFFF" class="hover:stroke-neongreen"/>
     </a>
 
     <a href="https://github.com/trangdangberlin" target="_blank">
-      <Github color="#FFFFFF"/>
+      <Github color="#FFFFFF" class="hover:stroke-neongreen"/>
     </a>
 
     <a href="mailto:da.trang91@yahoo.de" target="_blank">
-      <Mail color="#FFFFFF" />
+      <Mail color="#FFFFFF" class="hover:stroke-neongreen" />
     </a>
   </div>
 </div>
