@@ -1,4 +1,5 @@
 <script>
+  import { Github, Linkedin, Mail  } from 'lucide-svelte';
 </script>
 
 <div
@@ -7,16 +8,17 @@
   <div class="ml-10">Trang D. - Berlin</div>
 
   <div class="flex flex-row space-x-2 mr-10">
+
     <a href="https://www.linkedin.com/in/dang-trang/" target="_blank">
-      <img class="w-5 h-5" src="LinkedIn_logo.png" />
+      <Linkedin color="#FFFFFF"/>
     </a>
 
     <a href="https://github.com/trangdangberlin" target="_blank">
-      <img class="w-5 h-5" src="Github.png" />
+      <Github color="#FFFFFF"/>
     </a>
 
     <a href="mailto:da.trang91@yahoo.de" target="_blank">
-      <img class="w-5 h-5" src="email.png" />
+      <Mail color="#FFFFFF" />
     </a>
   </div>
 </div>
