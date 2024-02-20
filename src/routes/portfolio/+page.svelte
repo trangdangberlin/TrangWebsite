@@ -2,27 +2,30 @@
 </script>
 
 <div
-  class="carousel carousel-center w-full bg-black p-4 space-x-4 text-white overflow-x-scroll rounded-box"
+  class="carousel carousel-center w-full bg-black p-4 space-x-4 text-white"
 >
-  <div class="carousel-item">
-    <img src="trinity.png" class="rounded-box w-96 h-fit" />
+   <a href="your_link_here" class="block w-full h-full">
+      <img src="Trang.jpeg" class="rounded-box w-full h-full object-cover" />
+      <p class="text-center mt-2">Your Text Here</p>
+  <div class="carousel-item w-96 h-96">
+    <img src="Trang.jpeg" class="rounded-box w-full h-full object-cover" />
   </div>
-  <div class="carousel-item">
-    <img src="Trang.jpeg" class="rounded-box w-96 h-fit" />
+  <div class="carousel-item w-96 h-96">
+    <img src="matrix.png" class="rounded-box w-full h-full object-cover" />
   </div>
-  <div class="carousel-item">
-    <img src="mininal_bathroom.jpeg" class="rounded-box w-96 h-fit" />
+  <div class="carousel-item w-96 h-96">
+    <img src="mininal_bathroom.jpeg" class="rounded-box w-full h-full object-cover" />
   </div>
-  <div class="carousel-item">
-    <img src="pingpong.jpeg" class="rounded-box w-96 h-fit" />
+  <div class="carousel-item w-96 h-96">
+    <img src="pingpong.jpeg" class="rounded-box w-full h-full object-cover" />
   </div>
-  <div class="carousel-item">
-    <img src="chess_wood.jpeg" class="rounded-box w-96 h-fit" />
+  <div class="carousel-item w-96 h-96">
+    <img src="chess_wood.jpeg" class="rounded-box w-full h-full object-cover" />
   </div>
-  <div class="carousel-item">
-    <img src="building.webp" class="rounded-box w-96 h-fit" />
+  <div class="carousel-item w-96 h-96">
+    <img src="building.webp" class="rounded-box w-full h-full object-cover" />
   </div>
-  <div class="carousel-item">
-    <img src="neo.png" class="rounded-box w-96 h-fit" />
+  <div class="carousel-item w-96 h-96">
+    <img src="neo.png" class="rounded-box w-full h-full object-cover" />
   </div>
 </div>
