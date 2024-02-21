@@ -29,7 +29,6 @@
         alt=""
       />
     </div>
-    
   </div>
   <div class="list-disc pl-5 mt-10 ml-24 mb-10 text-pretty">
     <ul>
@@ -46,8 +45,5 @@
       <h5>Technical skills</h5>
       <p>Test</p>
     </ul>
-
+  </div>
 </div>
-</div>
-
-  
