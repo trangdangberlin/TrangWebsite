@@ -11,6 +11,7 @@
   <div class="carousel-item w-96 h-96">
     <img src="trinity.png" class="rounded-box w-full h-full object-cover" />
   </div>
+  
   <div class="carousel-item w-96 h-96">
     <img
       src="mininal_bathroom.jpeg"
