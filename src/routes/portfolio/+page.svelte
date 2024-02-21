@@ -7,7 +7,7 @@
   </div>
   <p class="text-center mt-2">Your Text Here</p>
   <div class="carousel-item w-96 h-96">
-    <img src="matrix.png" class="rounded-box w-full h-full object-cover" />
+    <img src="trinity.png" class="rounded-box w-full h-full object-cover" />
   </div>
   <div class="carousel-item w-96 h-96">
     <img
@@ -16,7 +16,7 @@
     />
   </div>
   <div class="carousel-item w-96 h-96">
-    <img src="pingpong.jpeg" class="rounded-box w-full h-full object-cover" />
+    <img src="ping_pong.avif" class="rounded-box w-full h-full object-cover" />
   </div>
   <div class="carousel-item w-96 h-96">
     <img src="chess_wood.jpeg" class="rounded-box w-full h-full object-cover" />
