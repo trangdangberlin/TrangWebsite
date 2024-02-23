@@ -8,9 +8,11 @@
     <div class="text-center mt-2 ml-2 absolute bottom-2 left-0 font-semibold text-white">Your Text Here</div>
 </a>
 
-  <div class="carousel-item w-96 h-96">
+ <div class="carousel-item w-96 h-96 relative block">
     <img src="trinity.png" class="rounded-box w-full h-full object-cover" />
-  </div>
+    <div class="text-center mt-2 ml-2 absolute bottom-2 left-0 font-semibold text-white">Your Text Here</div>
+</div>
+
   
   <div class="carousel-item w-96 h-96">
     <img
