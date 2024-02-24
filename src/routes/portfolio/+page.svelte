@@ -1,39 +1,52 @@
 <script>
+  let projects = [
+    {
+      url: "/portfolio/project_one",
+      img: "Trang.jpeg",
+      title: "Project One",
+    },
+    {
+      url: "/portfolio/project_two",
+      img: "trinity.png",
+      title: "Project Two",
+    },
+    {
+      url: "/portfolio/project_three",
+      img: "mininal_bathroom.jpeg",
+      title: "Project Three",
+    },
+    {
+      url: "/portfolio/project_four",
+      img: "ping_pong.avif",
+      title: "Project Four",
+    },
+    {
+      url: "portfolio/project_five",
+      img: "chess_wood.jpeg",
+      title: "Project Five",
+    },
+    {
+      url: "portfolio/project_six",
+      img: "building.webp",
+      title: "Project Six",
+    },
+    {
+      url: "portfolio/project_seven",
+      img: "neo.png",
+      title: "Project Seven",
+    },
+  ];
 </script>
 
 <div class="carousel carousel-center w-full bg-black p-4 space-x-4 text-white">
-  <a
-    href="/portfolio/project_one"
-    class="carousel-item w-96 h-96 relative block"
-  >
-    <img src="Trang.jpeg" class="rounded-box w-full h-full object-cover" />
-    <div
-      class="text-center mt-2 ml-2 absolute bottom-2 left-0 font-semibold text-white"
-    >
-      Your Text Here
-    </div>
-  </a>
-
-  <div class="carousel-item w-96 h-96">
-    <img src="trinity.png" class="rounded-box w-full h-full object-cover" />
-  </div>
-
-  <div class="carousel-item w-96 h-96">
-    <img
-      src="mininal_bathroom.jpeg"
-      class="rounded-box w-full h-full object-cover"
-    />
-  </div>
-  <div class="carousel-item w-96 h-96">
-    <img src="ping_pong.avif" class="rounded-box w-full h-full object-cover" />
-  </div>
-  <div class="carousel-item w-96 h-96">
-    <img src="chess_wood.jpeg" class="rounded-box w-full h-full object-cover" />
-  </div>
-  <div class="carousel-item w-96 h-96">
-    <img src="building.webp" class="rounded-box w-full h-full object-cover" />
-  </div>
-  <div class="carousel-item w-96 h-96">
-    <img src="neo.png" class="rounded-box w-full h-full object-cover" />
-  </div>
+  {#each projects as project}
+    <a href={project.url} class="carousel-item w-96 h-96 relative block">
+      <img src={project.img} class="rounded-box w-full h-full object-cover" />
+      <div
+        class="bg-neongreen px-2 rounded text-center mt-2 ml-2 absolute bottom-2 left-0 font-semibold text-2xl text-dark hover:text-white"
+      >
+        {project.title}
+      </div>
+    </a>
+  {/each}
 </div>
