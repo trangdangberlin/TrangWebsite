@@ -38,6 +38,8 @@
   ];
 </script>
 
+<!-- svelte-ignore a11y-missing-attribute -->
+
 <div class="carousel carousel-center w-full bg-black p-4 space-x-4 text-white">
   {#each projects as project}
     <a href={project.url} class="carousel-item w-96 h-96 relative block">

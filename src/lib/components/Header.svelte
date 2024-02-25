@@ -10,7 +10,7 @@
 
 <div class="flex flex-col sm:flex-row justify-around bg-black py-12">
   <a href="/">
-    <div class="font-bold text-2xl text-white">TRANG WEB</div>
+    <div class="font-bold text-2xl text-white hover:scale-110">TRANG WEB</div>
   </a>
   <div
     on:click={() => handleButtonClick("about")}
