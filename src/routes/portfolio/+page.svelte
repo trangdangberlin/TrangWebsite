@@ -45,7 +45,7 @@
     <a href={project.url} class="carousel-item w-96 h-96 relative block">
       <img src={project.img} class="rounded-box w-full h-full object-cover" />
       <div
-        class="bg-gray-500 px-2 rounded-2xl text-center mt-2 ml-2 absolute bottom-2 left-0 font-semibold text-2xl text-white hover:bg-neongreen hover:text-black"
+        class="bg-gray-500 px-2 rounded-2xl text-center mt-2 ml-2 absolute bottom-2 left-0 font-normal text-2xl text-white hover:bg-neongreen hover:text-black"
       >
         {project.title}
       </div>
